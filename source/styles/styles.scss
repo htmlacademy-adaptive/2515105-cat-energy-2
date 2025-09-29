@@ -1,7 +1,29 @@
 /* GLOBAL */
 @import "./common/variables.scss";
-@import "./common/global.scss";
+@import "./common/mixins.scss";
 @import "./common/fonts.scss";
+@import "./common/global.scss";
+@import "./common/visually-hidden.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/common-container.scss";
+@import "./blocks/page.scss";
+@import "./blocks/page-header.scss";
+@import "./blocks/page-content.scss";
+@import "./blocks/button-burger.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/button-general.scss";
+@import "./blocks/catalog-choice.scss";
+@import "./blocks/food-description.scss";
+@import "./blocks/example.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/page-footer.scss";
+@import "./blocks/catalog-products.scss";
+@import "./blocks/catalog-products-card.scss";
+@import "./blocks/additional-catalog-products.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/subscribe.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/title-greenline.scss";
+
